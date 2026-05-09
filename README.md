@@ -1,6 +1,11 @@
 # Java-project
 ## Overview
 This project is a Java coded application that is developed by me. The application demostrates a stock management systen for Car Parts and Accessories shop. It allows users to stock items, add/update prices and view item details
+## Requirements
+- Java Development Kit (JDK) 17 or later
+- Any Java IDE such as VS Code, IntelliJ, Eclipse or BlueJ
+- No external libraries required — Java Swing is built into Java
+
 ## Project Structure
 ├── Assignment/
 │   ├── StockItem.java
@@ -16,12 +21,14 @@ This project is a Java coded application that is developed by me. The applicatio
 │   ├── NavSys_table.pdf
 │   └── Updated_test_cases_with_NavSys.pdf
 └── README.md
+
 ## Class Descriptions
 - StockItem --> The base class for all stock items in the shop and stores the stock code, quantity and price.
 - NavSys --> A subclass of StockItem representing GeoVision Sat Nav navigation systems
 - CarBattery --> A subclass of StockItem representing car batteries, has two additional private attributes voltage and capacity
 - CarTyres --> A subclass of StockItem representing car tyres, has two additional private attributes tyreSize and tyreType
 - WindscreenWipers --> A subclass of StockItem representing windscreen wipers, has two additional private attributes bladeLength and compatiblity
+
 ## How to use the GUI
 
 **Creating a Stock Item**
@@ -64,4 +71,12 @@ All prices are stored without VAT. The VAT rate is 17.5%.
 Price with VAT = Price without VAT x 1.175
 
 For example 99.99 without VAT = 117.48825 with VAT
+
+## Setup Instructions 
+1. Gain access to the Github repository
+2. Go to the Assignment folder
+3. Compile all Java files
+4. Run the GUI application
+5. Run the NavSys console test
+6. Run the Polymorphism test
 
