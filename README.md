@@ -1,6 +1,6 @@
 # Java-project
 ## Overview
-This project is a Java coded application that is developed by me. The application demostrates a stock management systen for Car Parts and Accessories shop. It allows users to stock items, add/update prices and view item details
+This project is a Java coded application that is developed by me. The application demonstrates a stock management systen for Car Parts and Accessories shop. It allows users to stock items, add/update prices and view item details
 ## Requirements
 - Java Development Kit (JDK) 17 or later
 - Any Java IDE such as VS Code, IntelliJ, Eclipse or BlueJ
